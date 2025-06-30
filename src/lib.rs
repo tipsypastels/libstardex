@@ -1,6 +1,8 @@
+mod evolution;
 mod species;
 mod r#type;
 
+pub use evolution::*;
 pub use species::*;
 pub use r#type::*;
 

@@ -37,7 +37,7 @@ ENUM_HEADER = <<~RUST
   pub enum Species {
 RUST
 
-ENUM_FOOTER = "}"
+ENUM_FOOTER = "}\n"
 
 data = JSON.load_file! "./species.json"
 
